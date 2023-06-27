@@ -3,7 +3,7 @@
 / {
 	#address-cells = <0x02>;
 	#size-cells = <0x02>;
-	channel-id-map = "acg\0amxbr\0amxpr\0amxmx\0amxcl\0amxar\0amxla\0amxpe\0amxco\0tefbr\0tefmx\0tefar\0tefcl\0tefpe\0tefco\0perar\0entcl\0iusmx\0niibr\0niicl\0niimx\0niipe\0oibr\0timbr\0tigco\0retbr\0retar\0retla\0retcl\0tefla\0retla1st\0tefunl\0tigca\0tigca1st\0retmx\0attmx\0womcl\0avaco\0retpe\0openla\0opencl\0openmx\0altmx\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0reteu\0retgb\0retfr\0retes\0retie\0retde\0vfgb\0vfde\0vffr\0o2gb\0o2de\0orafr\0bouyfr\0eegb\0tescogb\0yoigo\0oraes\0retapac\0retmea\0vfit\0vfes\0vfeu\03gb\0tescoie\0altfr\03ie\0altpt\0timit\0retma\0windit\0vfhu\0vfro\0telhu\0playpl\0oraeu\0dteu\0teleu\0pluspl\0dtpl\0tefes\0altice\0vipeu\0veoneu\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0retca\0bwaca\0tkpca\0vzw\0att\0tmo\0sprint\0repw\0aio\0cricket\0cc\0usc\0tracfone\0retus\0metropcs\0rcica\0wndca\0dmc\0bby\0amz\0acg\0lra\0comcast\0fi\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0retin\0retcn\0telstra\0vfau\0amzin\0jioin\0airin\0retid\0cmcc\0ctcn\0cucn\0retmm\0gt4gtw\0retth\0retru\0trueth\0smarthk\0mobilpk\0retsea\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined";
+	channel-id-map = "acg\0amxbr\0amxpr\0amxmx\0amxcl\0amxar\0amxla\0amxpe\0amxco\0tefbr\0tefmx\0tefar\0tefcl\0tefpe\0tefco\0perar\0entcl\0iusmx\0niibr\0niicl\0niimx\0niipe\0oibr\0timbr\0tigco\0retbr\0retar\0retla\0retcl\0tefla\0retla1st\0tefunl\0tigca\0tigca1st\0retmx\0attmx\0womcl\0avaco\0retpe\0openla\0opencl\0openmx\0altmx\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0reteu\0retgb\0retfr\0retes\0retie\0retde\0vfgb\0vfde\0vffr\0o2gb\0o2de\0orafr\0bouyfr\0eegb\0tescogb\0yoigo\0oraes\0retapac\0retmea\0vfit\0vfes\0vfeu\03gb\0tescoie\0altfr\03ie\0altpt\0timit\0retma\0windit\0vfhu\0vfro\0telhu\0playpl\0oraeu\0dteu\0teleu\0pluspl\0dtpl\0tefes\0altice\0vipeu\0veoneu\0openeu\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0retca\0bwaca\0tkpca\0vzw\0att\0tmo\0sprint\0repw\0aio\0cricket\0cc\0usc\0tracfone\0retus\0metropcs\0rcica\0wndca\0dmc\0bby\0amz\0acg\0lra\0comcast\0fi\0undefined\0undefined\0charter\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0retin\0retcn\0telstra\0vfau\0amzin\0jioin\0airin\0retid\0cmcc\0ctcn\0cucn\0retmm\0gt4gtw\0retth\0retru\0trueth\0smarthk\0mobilpk\0retsea\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined";
 	compatible = "qcom,msm8937-jeter\0qcom,msm8937-moto\0qcom,msm8937";
 	interrupt-parent = <0x01>;
 	model = "jeter";
@@ -419,7 +419,7 @@
 
 		adsp_region@0 {
 			alignment = <0x00 0x400000>;
-			compatible = "removed-dma-pool";
+			compatible = "shared-dma-pool";
 			linux,phandle = <0xfb>;
 			phandle = <0xfb>;
 			reusable;
@@ -429,7 +429,7 @@
 		modem_region@0 {
 			compatible = "removed-dma-pool";
 			linux,phandle = <0x119>;
-			no-map-fixup;
+			no-map;
 			phandle = <0x119>;
 			reg = <0x00 0x86800000 0x00 0x5000000>;
 		};
@@ -451,9 +451,9 @@
 
 		ramoops_mem_region {
 			label = "ramoops_mem";
-			linux,phandle = <0x179>;
+			linux,phandle = <0x183>;
 			no-map;
-			phandle = <0x179>;
+			phandle = <0x183>;
 			reg = <0x00 0xae000000 0x00 0x80000>;
 		};
 
@@ -1582,6 +1582,7 @@
 			interrupts = <0x00 0xc7 0x00 0x00 0xe1 0x00 0x00 0xe8 0x00 0x00 0xe9 0x00 0x00 0xea 0x00>;
 			linux,phandle = <0x30>;
 			phandle = <0x30>;
+			qcom,deferred-regulator-disable-delay = <0x50>;
 			qcom,dynamic;
 			qcom,enable-smmu-halt;
 			qcom,register-save;
@@ -2233,8 +2234,8 @@
 			egistec,gpio_rst = <0xa7 0x7f 0x02>;
 			interrupt-parent = <0xa7>;
 			interrupts = <0x30 0x00>;
-			pinctrl-0 = <0x189 0x18a 0x18b 0x18c>;
-			pinctrl-1 = <0x18d 0x18e 0x18f 0x190>;
+			pinctrl-0 = <0x184 0x185 0x186 0x187>;
+			pinctrl-1 = <0x188 0x189 0x18a 0x18b>;
 			pinctrl-names = "default\0suspend";
 			reg = <0x00>;
 			status = "ok";
@@ -2492,8 +2493,8 @@
 		gpio_keys {
 			compatible = "gpio-keys";
 			input-name = "gpio-keys";
-			pinctrl-0 = <0x177>;
-			pinctrl-1 = <0x178>;
+			pinctrl-0 = <0x181>;
+			pinctrl-1 = <0x182>;
 			pinctrl-names = "tlmm_gpio_key_active\0tlmm_gpio_key_suspend";
 
 			vol_up {
@@ -2723,7 +2724,7 @@
 				config_modifier-aod {
 
 					aod-suspended {
-						patch-data = [53 00];
+						patch-data = "S";
 					};
 				};
 
@@ -2864,17 +2865,6 @@
 			qcom,coresight-jtagmm-cpu = <0x09>;
 			reg = <0x61bf000 0x1000 0x61b6000 0x1000>;
 			reg-names = "etm-base\0debug-base";
-		};
-
-		mcd {
-			clock-names = "core_clk_src\0core_clk\0iface_clk\0bus_clk";
-			clocks = <0x2b 0x37a21414 0x2b 0xd390d2 0x2b 0x94de4919 0x2b 0xd4415c9b>;
-			compatible = "qcom,mcd";
-			interrupt-names = "mcd_irq";
-			interrupts = <0x00 0xf8 0x00>;
-			qcom,ce-device = <0x00>;
-			qcom,ce-hw-instance = <0x00>;
-			qcom,ce-opp-freq = <0x5f5e100>;
 		};
 
 		modem_etm0 {
@@ -3344,8 +3334,8 @@
 			};
 
 			dtv-enable-ant {
-				linux,phandle = <0x17e>;
-				phandle = <0x17e>;
+				linux,phandle = <0x17b>;
+				phandle = <0x17b>;
 
 				config {
 					bias-disable;
@@ -3361,8 +3351,8 @@
 			};
 
 			dtv-irq-default {
-				linux,phandle = <0x17f>;
-				phandle = <0x17f>;
+				linux,phandle = <0x17c>;
+				phandle = <0x17c>;
 
 				config {
 					bias-pull-up;
@@ -3378,8 +3368,8 @@
 			fps {
 
 				int_active {
-					linux,phandle = <0x18a>;
-					phandle = <0x18a>;
+					linux,phandle = <0x185>;
+					phandle = <0x185>;
 
 					config {
 						drive-strength = <0x02>;
@@ -3394,8 +3384,8 @@
 				};
 
 				int_suspend {
-					linux,phandle = <0x18e>;
-					phandle = <0x18e>;
+					linux,phandle = <0x189>;
+					phandle = <0x189>;
 
 					config {
 						drive-strength = <0x02>;
@@ -3410,8 +3400,8 @@
 				};
 
 				ldo3_en_active {
-					linux,phandle = <0x18c>;
-					phandle = <0x18c>;
+					linux,phandle = <0x187>;
+					phandle = <0x187>;
 
 					config {
 						bias-pull-up;
@@ -3427,8 +3417,8 @@
 				};
 
 				ldo3_en_suspend {
-					linux,phandle = <0x190>;
-					phandle = <0x190>;
+					linux,phandle = <0x18b>;
+					phandle = <0x18b>;
 
 					config {
 						bias-pull-up;
@@ -3444,8 +3434,8 @@
 				};
 
 				ldo_en_active {
-					linux,phandle = <0x18b>;
-					phandle = <0x18b>;
+					linux,phandle = <0x186>;
+					phandle = <0x186>;
 
 					config {
 						bias-pull-up;
@@ -3461,8 +3451,8 @@
 				};
 
 				ldo_en_suspend {
-					linux,phandle = <0x18f>;
-					phandle = <0x18f>;
+					linux,phandle = <0x18a>;
+					phandle = <0x18a>;
 
 					config {
 						bias-pull-up;
@@ -3478,8 +3468,8 @@
 				};
 
 				rst_active {
-					linux,phandle = <0x189>;
-					phandle = <0x189>;
+					linux,phandle = <0x184>;
+					phandle = <0x184>;
 
 					config {
 						bias-pull-up;
@@ -3495,8 +3485,8 @@
 				};
 
 				rst_suspend {
-					linux,phandle = <0x18d>;
-					phandle = <0x18d>;
+					linux,phandle = <0x188>;
+					phandle = <0x188>;
 
 					config {
 						bias-pull-up;
@@ -4642,8 +4632,8 @@
 			};
 
 			spi4_cs0_active {
-				linux,phandle = <0x181>;
-				phandle = <0x181>;
+				linux,phandle = <0x17e>;
+				phandle = <0x17e>;
 
 				config {
 					bias-disable = <0x00>;
@@ -4658,8 +4648,8 @@
 			};
 
 			spi4_cs0_sleep {
-				linux,phandle = <0x183>;
-				phandle = <0x183>;
+				linux,phandle = <0x180>;
+				phandle = <0x180>;
 
 				config {
 					bias-disable = <0x00>;
@@ -4674,8 +4664,8 @@
 			};
 
 			spi4_default {
-				linux,phandle = <0x180>;
-				phandle = <0x180>;
+				linux,phandle = <0x17d>;
+				phandle = <0x17d>;
 
 				config {
 					bias-disable = <0x00>;
@@ -4690,8 +4680,8 @@
 			};
 
 			spi4_sleep {
-				linux,phandle = <0x182>;
-				phandle = <0x182>;
+				linux,phandle = <0x17f>;
+				phandle = <0x17f>;
 
 				config {
 					bias-pull-down;
@@ -4708,8 +4698,8 @@
 			spi_7 {
 
 				spi7_cs0_active {
-					linux,phandle = <0x17b>;
-					phandle = <0x17b>;
+					linux,phandle = <0x178>;
+					phandle = <0x178>;
 
 					config {
 						bias-disable;
@@ -4724,8 +4714,8 @@
 				};
 
 				spi7_cs0_sleep {
-					linux,phandle = <0x17d>;
-					phandle = <0x17d>;
+					linux,phandle = <0x17a>;
+					phandle = <0x17a>;
 
 					config {
 						bias-pull-up;
@@ -4740,8 +4730,8 @@
 				};
 
 				spi_7_active {
-					linux,phandle = <0x17a>;
-					phandle = <0x17a>;
+					linux,phandle = <0x177>;
+					phandle = <0x177>;
 
 					config {
 						bias-disable;
@@ -4756,8 +4746,8 @@
 				};
 
 				spi_7_sleep {
-					linux,phandle = <0x17c>;
-					phandle = <0x17c>;
+					linux,phandle = <0x179>;
+					phandle = <0x179>;
 
 					config {
 						bias-pull-down;
@@ -4854,8 +4844,8 @@
 			tlmm_gpio_key {
 
 				gpio_key_active {
-					linux,phandle = <0x177>;
-					phandle = <0x177>;
+					linux,phandle = <0x181>;
+					phandle = <0x181>;
 
 					config {
 						bias-pull-up;
@@ -4870,8 +4860,8 @@
 				};
 
 				gpio_key_suspend {
-					linux,phandle = <0x178>;
-					phandle = <0x178>;
+					linux,phandle = <0x182>;
+					phandle = <0x182>;
 
 					config {
 						bias-pull-up;
@@ -5377,10 +5367,10 @@
 			compatible = "qcom,camera-flash";
 			linux,phandle = <0x135>;
 			phandle = <0x135>;
-			qcom,flash-source = <0x184 0x185>;
+			qcom,flash-source = <0x18c 0x18d>;
 			qcom,flash-type = <0x01>;
-			qcom,switch-source = <0x188>;
-			qcom,torch-source = <0x186 0x187>;
+			qcom,switch-source = <0x190>;
+			qcom,torch-source = <0x18e 0x18f>;
 		};
 
 		qcom,cc-debug@1874000 {
@@ -7195,7 +7185,7 @@
 			qcom,mdss-rot-block-size = <0x40>;
 			qcom,mdss-rot-downscale-max = <0x10>;
 			qcom,mdss-rot-downscale-min = <0x02>;
-			qcom,mdss-slave-pingpong-off = <0x73000>;
+			qcom,mdss-slave-pingpong-off = "\0\a0";
 			qcom,mdss-vbif-qos-nrt-setting = <0x01 0x01 0x01 0x01>;
 			qcom,mdss-vbif-qos-rt-setting = <0x01 0x02 0x02 0x02>;
 			qcom,mdss-wb-off = <0x65000 0x66000>;
@@ -7666,6 +7656,7 @@
 				qcom,mdss-dsi-mdp-trigger = "none";
 				qcom,mdss-dsi-off-command = <0x5010000 0x14000128 0x5010000 0x78000110>;
 				qcom,mdss-dsi-off-command-state = "dsi_lp_mode";
+				qcom,mdss-dsi-off-reset-disable;
 				qcom,mdss-dsi-on-command = <0x39010000 0x4ff 0x98810315 0x1000000 0x28360 0x15010000 0x284 0x3390100 0x04 0xff988100 0x39010000 0x351 0xb201501 0x00 0x2532c15 0x1000000 0x25501 0x5010000 0x78000111 0x5010000 0x14000129>;
 				qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
 				qcom,mdss-dsi-panel-controller = <0x16d>;
@@ -7690,9 +7681,9 @@
 				qcom,mdss-dsi-traffic-mode = "burst_mode";
 				qcom,mdss-dsi-tx-eot-append;
 				qcom,mdss-dsi-underflow-color = <0xff>;
-				qcom,mdss-dsi-v-back-porch = <0x08>;
+				qcom,mdss-dsi-v-back-porch = <0x10>;
 				qcom,mdss-dsi-v-bottom-border = <0x00>;
-				qcom,mdss-dsi-v-front-porch = <0x30>;
+				qcom,mdss-dsi-v-front-porch = <0x28>;
 				qcom,mdss-dsi-v-pulse-width = <0x04>;
 				qcom,mdss-dsi-v-top-border = <0x00>;
 				qcom,mdss-dsi-virtual-channel-id = <0x00>;
@@ -7759,6 +7750,7 @@
 				qcom,mdss-dsi-cabc-ui-command-state = "dsi_hs_mode";
 				qcom,mdss-dsi-dis-reset-sequence = <0x01 0x0a 0x00 0x00>;
 				qcom,mdss-dsi-dma-trigger = "trigger_sw";
+				qcom,mdss-dsi-fw-upgrade-interrupt-disable;
 				qcom,mdss-dsi-h-back-porch = <0x18>;
 				qcom,mdss-dsi-h-front-porch = <0x101>;
 				qcom,mdss-dsi-h-left-border = <0x00>;
@@ -7781,7 +7773,6 @@
 				qcom,mdss-dsi-no-panel-on-read-support;
 				qcom,mdss-dsi-off-command = <0x5010000 0x5a000228 0x50100 0x140002 0x10003900 0x00 0x2045a39 0x1000096 0x2055a>;
 				qcom,mdss-dsi-off-command-state = "dsi_lp_mode";
-				qcom,mdss-dsi-off-reset-disable;
 				qcom,mdss-dsi-on-command = [05 01 00 00 78 00 02 11 00 39 00 00 00 00 00 03 50 5a 23 39 00 00 00 00 00 03 90 dd 0d 15 00 00 00 00 00 02 94 2c 15 00 00 00 00 00 02 95 01 39 00 00 00 00 00 03 50 5a 2f 15 00 00 00 00 00 02 50 00 05 01 00 00 14 00 02 29 00];
 				qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
 				qcom,mdss-dsi-panel-controller = <0x16d>;
@@ -7815,6 +7806,7 @@
 				qcom,mdss-dsi-virtual-channel-id = <0x00>;
 				qcom,mdss-pan-physical-height-dimension = <0x82>;
 				qcom,mdss-pan-physical-width-dimension = <0x41>;
+				qcom,mdss-panel-off-rst-disable;
 
 				qcom,panel-supply-entries {
 					#address-cells = <0x01>;
@@ -8272,9 +8264,9 @@
 				reg = <0x6b0 0x20>;
 			};
 
-			dload_type@18 {
+			dload_type@1c {
 				compatible = "qcom,msm-imem-dload-type";
-				reg = <0x18 0x04>;
+				reg = <0x1c 0x04>;
 			};
 
 			mem_dump_table@10 {
@@ -10485,8 +10477,8 @@
 
 					qcom,flash_0 {
 						label = "flash";
-						linux,phandle = <0x184>;
-						phandle = <0x184>;
+						linux,phandle = <0x18c>;
+						phandle = <0x18c>;
 						qcom,current = <0x271>;
 						qcom,default-led-trigger = "flash0_trigger";
 						qcom,duration = <0x500>;
@@ -10497,8 +10489,8 @@
 
 					qcom,flash_1 {
 						label = "flash";
-						linux,phandle = <0x185>;
-						phandle = <0x185>;
+						linux,phandle = <0x18d>;
+						phandle = <0x18d>;
 						qcom,current = <0x271>;
 						qcom,default-led-trigger = "flash1_trigger";
 						qcom,duration = <0x500>;
@@ -10509,8 +10501,8 @@
 
 					qcom,switch {
 						label = "switch";
-						linux,phandle = <0x188>;
-						phandle = <0x188>;
+						linux,phandle = <0x190>;
+						phandle = <0x190>;
 						qcom,current = <0x271>;
 						qcom,default-led-trigger = "switch_trigger";
 						qcom,duration = <0x500>;
@@ -10525,8 +10517,8 @@
 
 					qcom,torch_0 {
 						label = "torch";
-						linux,phandle = <0x186>;
-						phandle = <0x186>;
+						linux,phandle = <0x18e>;
+						phandle = <0x18e>;
 						qcom,current = <0x78>;
 						qcom,default-led-trigger = "torch0_trigger";
 						qcom,id = <0x00>;
@@ -10536,8 +10528,8 @@
 
 					qcom,torch_1 {
 						label = "torch";
-						linux,phandle = <0x187>;
-						phandle = <0x187>;
+						linux,phandle = <0x18f>;
+						phandle = <0x18f>;
 						qcom,current = <0x78>;
 						qcom,default-led-trigger = "torch1_trigger";
 						qcom,id = <0x01>;
@@ -10589,7 +10581,7 @@
 						qcom,qpnp-ibb-discharge-resistor = <0x20>;
 						qcom,qpnp-ibb-en-discharge;
 						qcom,qpnp-ibb-full-pull-down;
-						qcom,qpnp-ibb-init-amoled-voltage = <0x3d0900>;
+						qcom,qpnp-ibb-init-amoled-voltage = "\0=\t";
 						qcom,qpnp-ibb-init-lcd-voltage = <0x53ec60>;
 						qcom,qpnp-ibb-init-voltage = <0x53ec60>;
 						qcom,qpnp-ibb-lab-pwrdn-delay = <0x1f40>;
@@ -10957,7 +10949,7 @@
 			android,ramoops-dump-oops = <0x01>;
 			android,ramoops-record-size = <0x3f800>;
 			compatible = "ramoops";
-			linux,contiguous-region = <0x179>;
+			linux,contiguous-region = <0x183>;
 			status = "ok";
 		};
 
@@ -11297,8 +11289,8 @@
 			compatible = "qcom,spi-qup-v2";
 			interrupt-names = "spi_irq\0spi_bam_irq";
 			interrupts = <0x00 0x62 0x00 0x00 0xee 0x00>;
-			pinctrl-0 = <0x180 0x181>;
-			pinctrl-1 = <0x182 0x183>;
+			pinctrl-0 = <0x17d 0x17e>;
+			pinctrl-1 = <0x17f 0x180>;
 			pinctrl-names = "spi_default\0spi_sleep";
 			qcom,bam-consumer-pipe-index = <0x0a>;
 			qcom,bam-producer-pipe-index = <0x0b>;
@@ -11321,8 +11313,8 @@
 			compatible = "qcom,spi-qup-v2";
 			interrupt-names = "spi_irq\0spi_bam_irq";
 			interrupts = <0x00 0x12d 0x00 0x00 0xef 0x00>;
-			pinctrl-0 = <0x17a 0x17b>;
-			pinctrl-1 = <0x17c 0x17d>;
+			pinctrl-0 = <0x177 0x178>;
+			pinctrl-1 = <0x179 0x17a>;
 			pinctrl-names = "spi_default\0spi_sleep";
 			qcom,bam-consumer-pipe-index = <0x08>;
 			qcom,bam-producer-pipe-index = <0x09>;
@@ -11345,7 +11337,7 @@
 				enable-gpio = <0xa7 0x5e 0x00>;
 				irq-gpio = <0xa7 0x32 0x00>;
 				isdbt_vdd-supply = <0xd1>;
-				pinctrl-0 = <0x17e 0x17f>;
+				pinctrl-0 = <0x17b 0x17c>;
 				pinctrl-names = "default";
 				qcom,bbm-xtal-freq = <0x6590>;
 				qcom,vdd-min-max-voltage = <0x1b7740 0x1b7740>;

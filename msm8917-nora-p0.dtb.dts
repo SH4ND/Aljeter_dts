@@ -3,7 +3,7 @@
 / {
 	#address-cells = <0x02>;
 	#size-cells = <0x02>;
-	channel-id-map = "acg\0amxbr\0amxpr\0amxmx\0amxcl\0amxar\0amxla\0amxpe\0amxco\0tefbr\0tefmx\0tefar\0tefcl\0tefpe\0tefco\0perar\0entcl\0iusmx\0niibr\0niicl\0niimx\0niipe\0oibr\0timbr\0tigco\0retbr\0retar\0retla\0retcl\0tefla\0retla1st\0tefunl\0tigca\0tigca1st\0retmx\0attmx\0womcl\0avaco\0retpe\0openla\0opencl\0openmx\0altmx\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0reteu\0retgb\0retfr\0retes\0retie\0retde\0vfgb\0vfde\0vffr\0o2gb\0o2de\0orafr\0bouyfr\0eegb\0tescogb\0yoigo\0oraes\0retapac\0retmea\0vfit\0vfes\0vfeu\03gb\0tescoie\0altfr\03ie\0altpt\0timit\0retma\0windit\0vfhu\0vfro\0telhu\0playpl\0oraeu\0dteu\0teleu\0pluspl\0dtpl\0tefes\0altice\0vipeu\0veoneu\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0retca\0bwaca\0tkpca\0vzw\0att\0tmo\0sprint\0repw\0aio\0cricket\0cc\0usc\0tracfone\0retus\0metropcs\0rcica\0wndca\0dmc\0bby\0amz\0acg\0lra\0comcast\0fi\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0retin\0retcn\0telstra\0vfau\0amzin\0jioin\0airin\0retid\0cmcc\0ctcn\0cucn\0retmm\0gt4gtw\0retth\0retru\0trueth\0smarthk\0mobilpk\0retsea\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined";
+	channel-id-map = "acg\0amxbr\0amxpr\0amxmx\0amxcl\0amxar\0amxla\0amxpe\0amxco\0tefbr\0tefmx\0tefar\0tefcl\0tefpe\0tefco\0perar\0entcl\0iusmx\0niibr\0niicl\0niimx\0niipe\0oibr\0timbr\0tigco\0retbr\0retar\0retla\0retcl\0tefla\0retla1st\0tefunl\0tigca\0tigca1st\0retmx\0attmx\0womcl\0avaco\0retpe\0openla\0opencl\0openmx\0altmx\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0reteu\0retgb\0retfr\0retes\0retie\0retde\0vfgb\0vfde\0vffr\0o2gb\0o2de\0orafr\0bouyfr\0eegb\0tescogb\0yoigo\0oraes\0retapac\0retmea\0vfit\0vfes\0vfeu\03gb\0tescoie\0altfr\03ie\0altpt\0timit\0retma\0windit\0vfhu\0vfro\0telhu\0playpl\0oraeu\0dteu\0teleu\0pluspl\0dtpl\0tefes\0altice\0vipeu\0veoneu\0openeu\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0retca\0bwaca\0tkpca\0vzw\0att\0tmo\0sprint\0repw\0aio\0cricket\0cc\0usc\0tracfone\0retus\0metropcs\0rcica\0wndca\0dmc\0bby\0amz\0acg\0lra\0comcast\0fi\0undefined\0undefined\0charter\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0retin\0retcn\0telstra\0vfau\0amzin\0jioin\0airin\0retid\0cmcc\0ctcn\0cucn\0retmm\0gt4gtw\0retth\0retru\0trueth\0smarthk\0mobilpk\0retsea\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined\0undefined";
 	compatible = "qcom,msm8917-nora\0qcom,msm8917-moto\0qcom,msm8917";
 	interrupt-parent = <0x01>;
 	model = "nora";
@@ -303,7 +303,7 @@
 		modem_region@0 {
 			compatible = "removed-dma-pool";
 			linux,phandle = <0x123>;
-			no-map-fixup;
+			no-map;
 			phandle = <0x123>;
 			reg = <0x00 0x86800000 0x00 0x5000000>;
 		};
@@ -325,9 +325,9 @@
 
 		ramoops_mem_region {
 			label = "ramoops_mem";
-			linux,phandle = <0x160>;
+			linux,phandle = <0x168>;
 			no-map;
-			phandle = <0x160>;
+			phandle = <0x168>;
 			reg = <0x00 0xae000000 0x00 0x80000>;
 		};
 
@@ -338,6 +338,7 @@
 			phandle = <0x39>;
 			reusable;
 			size = <0x00 0x7000000>;
+			status = "disabled";
 		};
 
 		splash_region@83000000 {
@@ -1934,8 +1935,8 @@
 			egistec,gpio_rst = <0x19 0x7f 0x02>;
 			interrupt-parent = <0x19>;
 			interrupts = <0x30 0x00>;
-			pinctrl-0 = <0x161 0x162 0x163 0x164>;
-			pinctrl-1 = <0x165 0x166 0x167 0x168>;
+			pinctrl-0 = <0x15e 0x15f 0x160 0x161>;
+			pinctrl-1 = <0x162 0x163 0x164 0x165>;
 			pinctrl-names = "default\0suspend";
 			reg = <0x00>;
 			status = "ok";
@@ -2107,8 +2108,8 @@
 		gpio_keys {
 			compatible = "gpio-keys";
 			input-name = "gpio-keys";
-			pinctrl-0 = <0x15e>;
-			pinctrl-1 = <0x15f>;
+			pinctrl-0 = <0x166>;
+			pinctrl-1 = <0x167>;
 			pinctrl-names = "tlmm_gpio_key_active\0tlmm_gpio_key_suspend";
 
 			vol_up {
@@ -3024,8 +3025,8 @@
 			fps {
 
 				int_active {
-					linux,phandle = <0x162>;
-					phandle = <0x162>;
+					linux,phandle = <0x15f>;
+					phandle = <0x15f>;
 
 					config {
 						drive-strength = <0x02>;
@@ -3040,8 +3041,8 @@
 				};
 
 				int_suspend {
-					linux,phandle = <0x166>;
-					phandle = <0x166>;
+					linux,phandle = <0x163>;
+					phandle = <0x163>;
 
 					config {
 						drive-strength = <0x02>;
@@ -3056,8 +3057,8 @@
 				};
 
 				ldo3_en_active {
-					linux,phandle = <0x164>;
-					phandle = <0x164>;
+					linux,phandle = <0x161>;
+					phandle = <0x161>;
 
 					config {
 						bias-pull-up;
@@ -3073,8 +3074,8 @@
 				};
 
 				ldo3_en_suspend {
-					linux,phandle = <0x168>;
-					phandle = <0x168>;
+					linux,phandle = <0x165>;
+					phandle = <0x165>;
 
 					config {
 						bias-pull-up;
@@ -3090,8 +3091,8 @@
 				};
 
 				ldo_en_active {
-					linux,phandle = <0x163>;
-					phandle = <0x163>;
+					linux,phandle = <0x160>;
+					phandle = <0x160>;
 
 					config {
 						bias-pull-up;
@@ -3107,8 +3108,8 @@
 				};
 
 				ldo_en_suspend {
-					linux,phandle = <0x167>;
-					phandle = <0x167>;
+					linux,phandle = <0x164>;
+					phandle = <0x164>;
 
 					config {
 						bias-pull-up;
@@ -3124,8 +3125,8 @@
 				};
 
 				rst_active {
-					linux,phandle = <0x161>;
-					phandle = <0x161>;
+					linux,phandle = <0x15e>;
+					phandle = <0x15e>;
 
 					config {
 						bias-pull-up;
@@ -3141,8 +3142,8 @@
 				};
 
 				rst_suspend {
-					linux,phandle = <0x165>;
-					phandle = <0x165>;
+					linux,phandle = <0x162>;
+					phandle = <0x162>;
 
 					config {
 						bias-pull-up;
@@ -4708,8 +4709,8 @@
 			tlmm_gpio_key {
 
 				gpio_key_active {
-					linux,phandle = <0x15e>;
-					phandle = <0x15e>;
+					linux,phandle = <0x166>;
+					phandle = <0x166>;
 
 					config {
 						bias-pull-up;
@@ -4726,8 +4727,8 @@
 				};
 
 				gpio_key_suspend {
-					linux,phandle = <0x15f>;
-					phandle = <0x15f>;
+					linux,phandle = <0x167>;
+					phandle = <0x167>;
 
 					config {
 						bias-pull-up;
@@ -6352,23 +6353,6 @@
 			regulator-names = "vdd";
 			vdd-supply = <0x35>;
 
-			qcom,gpu-mempools {
-				#address-cells = <0x01>;
-				#size-cells = <0x00>;
-				compatible = "qcom,gpu-mempools";
-				qcom,mempool-max-pages = <0x8000>;
-
-				qcom,gpu-mempool@0 {
-					qcom,mempool-page-size = <0x1000>;
-					reg = <0x00>;
-				};
-
-				qcom,gpu-mempool@1 {
-					qcom,mempool-page-size = <0x10000>;
-					reg = <0x01>;
-				};
-			};
-
 			qcom,gpu-pwrlevel-bins {
 				#address-cells = <0x01>;
 				#size-cells = <0x00>;
@@ -6911,7 +6895,7 @@
 			qcom,mdss-rot-block-size = <0x40>;
 			qcom,mdss-rot-downscale-max = <0x10>;
 			qcom,mdss-rot-downscale-min = <0x02>;
-			qcom,mdss-slave-pingpong-off = <0x73000>;
+			qcom,mdss-slave-pingpong-off = "\0\a0";
 			qcom,mdss-vbif-qos-nrt-setting = <0x01 0x01 0x01 0x01>;
 			qcom,mdss-vbif-qos-rt-setting = <0x01 0x02 0x02 0x02>;
 			qcom,mdss-wb-off = <0x65000 0x66000>;
@@ -7381,6 +7365,7 @@
 				qcom,mdss-dsi-mdp-trigger = "none";
 				qcom,mdss-dsi-off-command = <0x5010000 0x14000128 0x5010000 0x78000110>;
 				qcom,mdss-dsi-off-command-state = "dsi_lp_mode";
+				qcom,mdss-dsi-off-reset-disable;
 				qcom,mdss-dsi-on-command = <0x39010000 0x4ff 0x98810315 0x1000000 0x28360 0x15010000 0x284 0x3390100 0x04 0xff988100 0x39010000 0x351 0xb201501 0x00 0x2532c15 0x1000000 0x25501 0x5010000 0x78000111 0x5010000 0x14000129>;
 				qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
 				qcom,mdss-dsi-panel-controller = <0xb3>;
@@ -7405,9 +7390,9 @@
 				qcom,mdss-dsi-traffic-mode = "burst_mode";
 				qcom,mdss-dsi-tx-eot-append;
 				qcom,mdss-dsi-underflow-color = <0xff>;
-				qcom,mdss-dsi-v-back-porch = <0x08>;
+				qcom,mdss-dsi-v-back-porch = <0x10>;
 				qcom,mdss-dsi-v-bottom-border = <0x00>;
-				qcom,mdss-dsi-v-front-porch = <0x30>;
+				qcom,mdss-dsi-v-front-porch = <0x28>;
 				qcom,mdss-dsi-v-pulse-width = <0x04>;
 				qcom,mdss-dsi-v-top-border = <0x00>;
 				qcom,mdss-dsi-virtual-channel-id = <0x00>;
@@ -7474,6 +7459,7 @@
 				qcom,mdss-dsi-cabc-ui-command-state = "dsi_hs_mode";
 				qcom,mdss-dsi-dis-reset-sequence = <0x01 0x0a 0x00 0x00>;
 				qcom,mdss-dsi-dma-trigger = "trigger_sw";
+				qcom,mdss-dsi-fw-upgrade-interrupt-disable;
 				qcom,mdss-dsi-h-back-porch = <0x18>;
 				qcom,mdss-dsi-h-front-porch = <0x101>;
 				qcom,mdss-dsi-h-left-border = <0x00>;
@@ -7496,7 +7482,6 @@
 				qcom,mdss-dsi-no-panel-on-read-support;
 				qcom,mdss-dsi-off-command = <0x5010000 0x5a000228 0x50100 0x140002 0x10003900 0x00 0x2045a39 0x1000096 0x2055a>;
 				qcom,mdss-dsi-off-command-state = "dsi_lp_mode";
-				qcom,mdss-dsi-off-reset-disable;
 				qcom,mdss-dsi-on-command = [05 01 00 00 78 00 02 11 00 39 00 00 00 00 00 03 50 5a 23 39 00 00 00 00 00 03 90 dd 0d 15 00 00 00 00 00 02 94 2c 15 00 00 00 00 00 02 95 01 39 00 00 00 00 00 03 50 5a 2f 15 00 00 00 00 00 02 50 00 05 01 00 00 14 00 02 29 00];
 				qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
 				qcom,mdss-dsi-panel-controller = <0xb3>;
@@ -7530,6 +7515,7 @@
 				qcom,mdss-dsi-virtual-channel-id = <0x00>;
 				qcom,mdss-pan-physical-height-dimension = <0x82>;
 				qcom,mdss-pan-physical-width-dimension = <0x41>;
+				qcom,mdss-panel-off-rst-disable;
 
 				qcom,panel-supply-entries {
 					#address-cells = <0x01>;
@@ -7977,9 +7963,9 @@
 				reg = <0x6b0 0x20>;
 			};
 
-			dload_type@18 {
+			dload_type@1c {
 				compatible = "qcom,msm-imem-dload-type";
-				reg = <0x18 0x04>;
+				reg = <0x1c 0x04>;
 			};
 
 			mem_dump_table@10 {
@@ -10283,7 +10269,7 @@
 						qcom,qpnp-ibb-discharge-resistor = <0x20>;
 						qcom,qpnp-ibb-en-discharge;
 						qcom,qpnp-ibb-full-pull-down;
-						qcom,qpnp-ibb-init-amoled-voltage = <0x3d0900>;
+						qcom,qpnp-ibb-init-amoled-voltage = "\0=\t";
 						qcom,qpnp-ibb-init-lcd-voltage = <0x53ec60>;
 						qcom,qpnp-ibb-init-voltage = <0x53ec60>;
 						qcom,qpnp-ibb-lab-pwrdn-delay = <0x1f40>;
@@ -10650,7 +10636,7 @@
 			android,ramoops-dump-oops = <0x01>;
 			android,ramoops-record-size = <0x3f800>;
 			compatible = "ramoops";
-			linux,contiguous-region = <0x160>;
+			linux,contiguous-region = <0x168>;
 			status = "ok";
 		};
 
