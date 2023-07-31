@@ -391,7 +391,7 @@
 		modem_region@0 {
 			compatible = "removed-dma-pool";
 			linux,phandle = <0x10d>;
-			no-map-fixup;
+			no-map;
 			phandle = <0x10d>;
 			reg = <0x00 0x86800000 0x00 0x5000000>;
 		};
@@ -413,9 +413,9 @@
 
 		ramoops_mem_region {
 			label = "ramoops_mem";
-			linux,phandle = <0x16e>;
+			linux,phandle = <0x17d>;
 			no-map;
-			phandle = <0x16e>;
+			phandle = <0x17d>;
 			reg = <0x00 0xae000000 0x00 0x80000>;
 		};
 
@@ -1544,6 +1544,7 @@
 			interrupts = <0x00 0xc7 0x00 0x00 0xe1 0x00 0x00 0xe8 0x00 0x00 0xe9 0x00 0x00 0xea 0x00>;
 			linux,phandle = <0x30>;
 			phandle = <0x30>;
+			qcom,deferred-regulator-disable-delay = <0x50>;
 			qcom,dynamic;
 			qcom,enable-smmu-halt;
 			qcom,register-save;
@@ -2439,8 +2440,8 @@
 		gpio_keys {
 			compatible = "gpio-keys";
 			input-name = "gpio-keys";
-			pinctrl-0 = <0x16c>;
-			pinctrl-1 = <0x16d>;
+			pinctrl-0 = <0x17b>;
+			pinctrl-1 = <0x17c>;
 			pinctrl-names = "tlmm_gpio_key_active\0tlmm_gpio_key_suspend";
 
 			vol_up {
@@ -3158,8 +3159,8 @@
 			};
 
 			dtv-enable-ant {
-				linux,phandle = <0x173>;
-				phandle = <0x173>;
+				linux,phandle = <0x170>;
+				phandle = <0x170>;
 
 				config {
 					bias-disable;
@@ -3175,8 +3176,8 @@
 			};
 
 			dtv-irq-default {
-				linux,phandle = <0x174>;
-				phandle = <0x174>;
+				linux,phandle = <0x171>;
+				phandle = <0x171>;
 
 				config {
 					bias-pull-up;
@@ -4401,8 +4402,8 @@
 			};
 
 			spi4_cs0_active {
-				linux,phandle = <0x176>;
-				phandle = <0x176>;
+				linux,phandle = <0x173>;
+				phandle = <0x173>;
 
 				config {
 					bias-disable = <0x00>;
@@ -4417,8 +4418,8 @@
 			};
 
 			spi4_cs0_sleep {
-				linux,phandle = <0x178>;
-				phandle = <0x178>;
+				linux,phandle = <0x175>;
+				phandle = <0x175>;
 
 				config {
 					bias-disable = <0x00>;
@@ -4433,8 +4434,8 @@
 			};
 
 			spi4_default {
-				linux,phandle = <0x175>;
-				phandle = <0x175>;
+				linux,phandle = <0x172>;
+				phandle = <0x172>;
 
 				config {
 					bias-disable = <0x00>;
@@ -4449,8 +4450,8 @@
 			};
 
 			spi4_sleep {
-				linux,phandle = <0x177>;
-				phandle = <0x177>;
+				linux,phandle = <0x174>;
+				phandle = <0x174>;
 
 				config {
 					bias-pull-down;
@@ -4530,8 +4531,8 @@
 			spi_7 {
 
 				spi7_cs0_active {
-					linux,phandle = <0x170>;
-					phandle = <0x170>;
+					linux,phandle = <0x16d>;
+					phandle = <0x16d>;
 
 					config {
 						bias-disable;
@@ -4546,8 +4547,8 @@
 				};
 
 				spi7_cs0_sleep {
-					linux,phandle = <0x172>;
-					phandle = <0x172>;
+					linux,phandle = <0x16f>;
+					phandle = <0x16f>;
 
 					config {
 						bias-pull-up;
@@ -4562,8 +4563,8 @@
 				};
 
 				spi_7_active {
-					linux,phandle = <0x16f>;
-					phandle = <0x16f>;
+					linux,phandle = <0x16c>;
+					phandle = <0x16c>;
 
 					config {
 						bias-disable;
@@ -4578,8 +4579,8 @@
 				};
 
 				spi_7_sleep {
-					linux,phandle = <0x171>;
-					phandle = <0x171>;
+					linux,phandle = <0x16e>;
+					phandle = <0x16e>;
 
 					config {
 						bias-pull-down;
@@ -4595,8 +4596,8 @@
 			};
 
 			stml0xx-flash-en {
-				linux,phandle = <0x17d>;
-				phandle = <0x17d>;
+				linux,phandle = <0x17a>;
+				phandle = <0x17a>;
 
 				config {
 					bias-disable;
@@ -4612,8 +4613,8 @@
 			};
 
 			stml0xx-inputs {
-				linux,phandle = <0x17a>;
-				phandle = <0x17a>;
+				linux,phandle = <0x177>;
+				phandle = <0x177>;
 
 				config {
 					bias-pull-down;
@@ -4628,8 +4629,8 @@
 			};
 
 			stml0xx-reset {
-				linux,phandle = <0x17c>;
-				phandle = <0x17c>;
+				linux,phandle = <0x179>;
+				phandle = <0x179>;
 
 				config {
 					bias-disable;
@@ -4645,8 +4646,8 @@
 			};
 
 			stml0xx-wakeup {
-				linux,phandle = <0x17b>;
-				phandle = <0x17b>;
+				linux,phandle = <0x178>;
+				phandle = <0x178>;
 
 				config {
 					bias-disable;
@@ -4684,8 +4685,8 @@
 			tlmm_gpio_key {
 
 				gpio_key_active {
-					linux,phandle = <0x16c>;
-					phandle = <0x16c>;
+					linux,phandle = <0x17b>;
+					phandle = <0x17b>;
 
 					config {
 						bias-pull-up;
@@ -4700,8 +4701,8 @@
 				};
 
 				gpio_key_suspend {
-					linux,phandle = <0x16d>;
-					phandle = <0x16d>;
+					linux,phandle = <0x17c>;
+					phandle = <0x17c>;
 
 					config {
 						bias-pull-up;
@@ -7689,9 +7690,9 @@
 				reg = <0x6b0 0x20>;
 			};
 
-			dload_type@18 {
+			dload_type@1c {
 				compatible = "qcom,msm-imem-dload-type";
-				reg = <0x18 0x04>;
+				reg = <0x1c 0x04>;
 			};
 
 			mem_dump_table@10 {
@@ -7955,8 +7956,8 @@
 
 				regulator-l10 {
 					compatible = "qcom,rpm-smd-regulator";
-					linux,phandle = <0x179>;
-					phandle = <0x179>;
+					linux,phandle = <0x176>;
+					phandle = <0x176>;
 					qcom,init-voltage = <0x2ab980>;
 					qcom,set = <0x03>;
 					regulator-max-microvolt = <0x2dc6c0>;
@@ -10359,7 +10360,7 @@
 			android,ramoops-dump-oops = <0x01>;
 			android,ramoops-record-size = <0x3f800>;
 			compatible = "ramoops";
-			linux,contiguous-region = <0x16e>;
+			linux,contiguous-region = <0x17d>;
 			status = "ok";
 		};
 
@@ -10698,8 +10699,8 @@
 			compatible = "qcom,spi-qup-v2";
 			interrupt-names = "spi_irq\0spi_bam_irq";
 			interrupts = <0x00 0x62 0x00 0x00 0xee 0x00>;
-			pinctrl-0 = <0x175 0x176>;
-			pinctrl-1 = <0x177 0x178>;
+			pinctrl-0 = <0x172 0x173>;
+			pinctrl-1 = <0x174 0x175>;
 			pinctrl-names = "spi_default\0spi_sleep";
 			qcom,bam-consumer-pipe-index = <0x0a>;
 			qcom,bam-producer-pipe-index = <0x0b>;
@@ -10750,11 +10751,11 @@
 				headset_removal_debounce = <0x80>;
 				lux_table = <0x05 0x32 0x64 0x5dc 0xbb8 0x1f40>;
 				mag_layout = <0x03>;
-				pinctrl-0 = <0x17a 0x17b 0x17c 0x17d>;
+				pinctrl-0 = <0x177 0x178 0x179 0x17a>;
 				pinctrl-names = "default";
 				reg = <0x00>;
 				reset_hw_type = <0x01>;
-				sensor1-supply = <0x179>;
+				sensor1-supply = <0x176>;
 				sensor2-supply = <0xb6>;
 				spi-max-frequency = <0x7a1200>;
 				status = "okay";
@@ -10806,8 +10807,8 @@
 			compatible = "qcom,spi-qup-v2";
 			interrupt-names = "spi_irq\0spi_bam_irq";
 			interrupts = <0x00 0x12d 0x00 0x00 0xef 0x00>;
-			pinctrl-0 = <0x16f 0x170>;
-			pinctrl-1 = <0x171 0x172>;
+			pinctrl-0 = <0x16c 0x16d>;
+			pinctrl-1 = <0x16e 0x16f>;
 			pinctrl-names = "spi_default\0spi_sleep";
 			qcom,bam-consumer-pipe-index = <0x08>;
 			qcom,bam-producer-pipe-index = <0x09>;
@@ -10830,7 +10831,7 @@
 				enable-gpio = <0xa7 0x5e 0x00>;
 				irq-gpio = <0xa7 0x32 0x00>;
 				isdbt_vdd-supply = <0x122>;
-				pinctrl-0 = <0x173 0x174>;
+				pinctrl-0 = <0x170 0x171>;
 				pinctrl-names = "default";
 				qcom,bbm-xtal-freq = <0x6590>;
 				qcom,vdd-min-max-voltage = <0x1b7740 0x1b7740>;
